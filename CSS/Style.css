@@ -1,0 +1,252 @@
+
+#title{
+font-size: 50px;
+display: flex;  
+font-family: 'Trebuchet MS', sans-serif;
+justify-content: center; 
+}
+#bottomT{ 
+font-family:'Trebuchet MS', sans-serif;
+margin: 0;
+text-align: center;
+}
+#MBTN {
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ border: none; 
+ border-radius: 8px;
+ cursor: pointer; 
+ transition: background-color 0.3s ease, transform 0.1s ease; 
+ position: absolute;
+ padding:20px;
+ width:1900px;
+}
+#MBTN:hover {
+  background-color: #8ecae6;
+  transform: scale(1.05);
+}
+#MBTN:active {
+  background-color: #fb8500; 
+  transform: scale(0.98); 
+}
+#MBTN:focus{
+  background-color: #023047;
+  color: #FF0000;}
+#Logo{
+ width:1000px;/* size */
+ height:1000px;/* size */
+ padding:0px;/* space between content */
+ left: 40px;/* position */
+ right: 50px; /* position */
+ margin:0; /* position */}
+#Des {
+  font-weight: 900; /* Fat Letters */
+  position: absolute; /* Prevents it from affecting layout */
+  text-align: center; 
+  line-height: 1.5;
+  font-weight: bold;
+  padding: 30px;
+  width: max-content; /* Keeps the text compact */
+  top: 200px;
+  left: 60%;
+  transform: translateX(-50%);
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+  background: linear-gradient(to right, #00008B, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveAndFade 15s ease-in-out infinite alternate;
+}
+
+#Des::first-letter {
+font-size: 3em;
+color: #00008B;
+font-weight: bold;
+}
+@keyframes moveAndFade {
+0% {transform: translateX(-50%) translateX(0); opacity: 0;}
+50% {opacity: 1;}
+100% {transform: translateX(-50%) translateX(200px);
+opacity: 0;}
+}
+#Choose {
+ font-size:40px;
+ Background: none;
+ Border: None;
+ Position: Relative; /* position */
+ Top: -120px; /* position */
+ left: 800px; /* position */
+ Font-family: 'Trebuchet MS', sans-serif;
+ Display: inline-block; /* Keeps object still  */
+ Transition: transform 0.3s ease; /* Smooth effect */
+}
+#Choose:hover {
+  transform: scale(1.5); /* Text Size */}
+#Shape{
+ position: absolute; /* Overlay */
+ top: 275%; /* Move it halfway down */
+ left: 10%; /* Move it halfway across */
+ transform: translate(-50%, -50%); /* Centers the overlay */
+ Width: 300px; /* size */
+ Transition: transform 0.3s ease-in-out;/* ImagePopup DO NOT TOUCH*/}
+#Shape:hover {
+   transform: scale(1.2); /* ImagePopup */}
+#Energy{
+ position: absolute; /* Overlay */
+ top: 275%; /* Move it halfway down */
+ left: 30%; /* Move it halfway across */
+ transform: translate(-50%, -50%); /* Centers the overlay */
+ width: 300px; /* size */
+ transition: transform 0.3s ease-in-out;} /* ImagePopup DO NOT TOUCH*/
+#Energy:hover {
+   transform: scale(1.2); /* ImagePopup */}
+#Muscle{
+ position: absolute; /* Overlay */
+ top: 275%; /* Move it halfway down */
+ left: 50%; /* Move it halfway across */
+ transform: translate(-50%, -50%); /* Centers the overlay */
+ width: 300px; /* size */
+ transition: transform 0.3s ease-in-out;} /* ImagePopup DO NOT TOUCH*/
+#Muscle:hover {
+   transform: scale(1.2); /* ImagePopup */}
+#Speed{
+ position: absolute; /* Overlay */
+ top: 275%; /* Move it halfway down */
+ left: 70%; /* Move it halfway across */
+ transform: translate(-50%, -50%); /* Centers the overlay */
+ width: 300px; /* size */
+ transition: transform 0.3s ease-in-out;} /* ImagePopup DO NOT TOUCH*/
+#Speed:hover {
+   transform: scale(1.2); /* ImagePopup */}
+#Fly{
+ position: absolute; /* Overlay */
+ top: 275%; /* Move it halfway down */
+ left: 90%; /* Move it halfway across */
+ transform: translate(-50%, -50%); /* Centers the overlay */
+ width: 300px; /* size */
+ transition: transform 0.3s ease-in-out;} /* ImagePopup DO NOT TOUCH*/
+#Fly:hover {
+   transform: scale(1.2); /* ImagePopup */}
+#S {
+  top: 310%;
+  left: 7%;
+  position: absolute;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: inline-block; /* Keeps object still */
+  transition: transform 0.3s ease; /* Smooth effect */
+}
+
+#S:hover {
+  transform: scale(1.5); /* Text Size */
+}
+#EM {
+  top: 310%;
+  left: 27%;
+  position: absolute;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: inline-block; /* Keeps object still */
+  transition: transform 0.3s ease; /* Smooth effect */
+}
+
+#EM:hover {
+  transform: scale(1.5); /* Text Size */
+}
+#St {
+  top: 310%;
+  left: 49%;
+  position: absolute;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: inline-block; /* Keeps object still */
+  transition: transform 0.3s ease; /* Smooth effect */
+}
+
+#St:hover {
+  transform: scale(1.5); /* Text Size */}
+#Fast {
+  top: 310%;
+  left: 70%;
+  position: absolute;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: inline-block; /* Keeps object still */
+  transition: transform 0.3s ease; /* Smooth effect */
+}
+
+#Fast:hover {
+  transform: scale(1.5); /* Text Size */}
+#Sky {
+  top: 310%;
+  left: 90%;
+  position: absolute;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: inline-block; /* Keeps object still */
+  transition: transform 0.3s ease; /* Smooth effect */
+}
+
+#Sky:hover {
+  transform: scale(1.5); /* Text Size */}
+#Team{
+  top: 330%;
+  left: 45%;
+  position: absolute;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: inline-block; /* Keeps object still */
+  transition: transform 0.3s ease; /* Smooth effect */}
+#Team:hover {
+  transform: scale(1.5); /* Text Size */}
+#Group{
+  width:500px;
+  top: 350%;
+  left: 10%;
+  position: absolute;
+}
+#Solo{
+  width:500px;
+  top: 340%;
+  left: 60%;
+  position: absolute;
+}
+#TeamE {
+    display: inline-block; /* Ensures button appears inline */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#TeamE:hover {
+    background-color: #0056b3;
+}
+#work{
+  top: 470%;
+  left: 25%;
+  position: absolute;
+  font-family: 'Trebuchet MS', sans-serif;}
+#Job{ 
+  top: 470%;
+  left: 45%;
+  position: absolute;}
+#btnn{
+    top: 520%;
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: black; /* Text color */
+  background: transparent; /* No background */
+  border:none; display: inline-block; /* Keeps object still */
+  transition: transform 0.3s ease; /* Smooth effect */
+}
+
+#btnn:hover {
+  transform: scale(1.5); /* Text Size */}
+ a {
+    text-decoration: none;
+}
+
